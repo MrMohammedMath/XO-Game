@@ -28,7 +28,7 @@ header {
 }
 
 #result {
-    font-family: Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
+    font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
     display: inline-block;
 
     /* centering it */
@@ -103,4 +103,36 @@ header {
 #o-result {
     left: 0;
     background-color: #00f;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    height: 53px;
+    /* border: 1px #000 solid; */
+    box-shadow: inset 0 -50px 10px #000;
+    border-radius: ;
+    position: relative;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer>p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+    height: 25px;
 }
